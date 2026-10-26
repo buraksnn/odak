@@ -1,0 +1,22 @@
+node_modules/
+.next/
+data/
+*.sqlite*
+*.db*
+backups/
+.env*
+playwright-report/
+test-results/
+*.tsbuildinfo
+odak-yedek*.json
+odak-denemeler*.csv
+
+# Yerel macOS dosyaları ve özel dışa aktarımlar
+.DS_Store
+exports/
+secrets/
+credentials/
+*.pem
+*.key
+*.p12
+*.pfx
